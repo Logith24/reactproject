@@ -1,0 +1,58 @@
+body {
+  background: linear-gradient(to right, #ea7a66, #a29f4b);
+}
+
+/* Container */
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Card */
+.note-card {
+  background: rgb(174, 174, 231);
+  border-radius: 12px;
+  height: 150px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover */
+.note-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Text */
+.note-text {
+  font-size: 14px;
+  overflow: hidden;
+}
+
+/* Buttons animation */
+button {
+  transition: 0.2s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.quote {
+  font-style: italic;
+  color: #555;
+  font-size: 18px;
+}
+
+/* Image style */
+.welcome-img {
+  width: 350px;
+  transition: 0.3s;
+  align-items: center;
+}
+
+.welcome-img:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
